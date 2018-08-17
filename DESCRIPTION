@@ -12,17 +12,17 @@ Authors@R: c(
 License: GPL-3
 LazyData: true
 ByteCompile: true
-Depends:
-    R (>= 3.1.0)
-Suggests:
-    crayon,
-    knitr,
-    methods,
-    pillar,
-    rmarkdown (>= 0.2.65),
-    testthat,
-    covr
+Depends: R (>= 3.1.0)
+Suggests: crayon, knitr, methods, pillar, rmarkdown (>= 0.2.65),
+        testthat, covr
 RoxygenNote: 6.0.1
-Roxygen: list(markdown = TRUE)
 URL: http://rlang.tidyverse.org, https://github.com/r-lib/rlang
 BugReports: https://github.com/r-lib/rlang/issues
+NeedsCompilation: yes
+Packaged: 2018-08-14 17:56:07 UTC; lionel
+Author: Lionel Henry [aut, cre],
+  Hadley Wickham [aut],
+  RStudio [cph]
+Maintainer: Lionel Henry <lionel@rstudio.com>
+Repository: CRAN
+Date/Publication: 2018-08-16 18:20:03 UTC
