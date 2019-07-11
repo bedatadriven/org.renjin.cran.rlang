@@ -13,18 +13,18 @@ License: GPL-3
 LazyData: true
 ByteCompile: true
 Biarch: true
-Depends:
-    R (>= 3.2.0)
-Suggests:
-    covr,
-    crayon,
-    magrittr,
-    methods,
-    pillar,
-    rmarkdown,
-    testthat (>= 2.0.0)
+Depends: R (>= 3.2.0)
+Suggests: covr, crayon, magrittr, methods, pillar, rmarkdown, testthat
+        (>= 2.0.0)
 Encoding: UTF-8
 RoxygenNote: 6.1.1
-Roxygen: list(markdown = TRUE)
 URL: http://rlang.r-lib.org, https://github.com/r-lib/rlang
 BugReports: https://github.com/r-lib/rlang/issues
+NeedsCompilation: yes
+Packaged: 2019-06-24 21:23:11 UTC; lionel
+Author: Lionel Henry [aut, cre],
+  Hadley Wickham [aut],
+  RStudio [cph]
+Maintainer: Lionel Henry <lionel@rstudio.com>
+Repository: CRAN
+Date/Publication: 2019-06-25 07:50:03 UTC
